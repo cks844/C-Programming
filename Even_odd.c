@@ -3,12 +3,12 @@
 
 int main()
 {
-    int n;
+    int num;
     printf("Enter a number to check:");
-    scanf("%d",&n);
+    scanf("%d",&num);
     if(n%2==0)
-        printf("\t%d is an even number",n);
+        printf("\t%d is an even number",num);
     else
-        printf("\t%d is an odd number",n);
+        printf("\t%d is an odd number",num);
     return 0;
 }
