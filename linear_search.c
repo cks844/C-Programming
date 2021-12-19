@@ -44,8 +44,8 @@ void linear_search(int arr[],int s)
     else
     	printf("Element not found in the array");
     printf("\n Do you want continue searching:");
-    printf("\n If YES,please type 'Y' to continue:");
+    printf("\n If YES,please type 'Y' or 'y' to continue:");
     scanf(" %c",&c);
 	}
-    while(c=='Y');
+    while(c=='Y' || c=='y');
 }
