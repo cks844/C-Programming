@@ -10,6 +10,7 @@ float Calculator(float a,float b,float*sum,float*sub,float*prod,float*div)
 int main()
 {
     float a,b,sum,sub,prod,div;
+   
     printf("Enter the greater value:");
     scanf("%f",&a);
     printf("Enter the smaller value:");
