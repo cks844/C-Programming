@@ -13,6 +13,6 @@ int main()
     {
         sum+=a[i];
     }
-    printf("\n Sum of the numbers is: %d", sum);
+    printf("\n Sum of the elements is: %d", sum);
     return 0;
 }
