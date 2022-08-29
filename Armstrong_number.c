@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int a,d,sum=0,temp;
+    int a,r,sum=0,temp;
     printf("Enter a number : ");
     scanf("%d", &a);
     temp =a;
     while(a>0)
     {
-        d=a%10;
-        sum+=(d*d*d);
+        r=a%10;
+        sum+=(r*r*r);
         a=a/10;
     }
     if(sum==temp)
